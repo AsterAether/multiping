@@ -107,7 +107,7 @@ public class MainWnd
             System.out.println(ex.toString());
         }
         outer = this;
-        mainFrame = new JFrame("MultiPing v1.337 (thomas-beta)");
+        mainFrame = new JFrame("MultiPing v0.2");
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         hostsTableModel = new HostsTableModel();
         hostsTable = new JTable(hostsTableModel);
